@@ -1,17 +1,17 @@
 Imagens: 
 
-- Foto de perfil
-- 20 fotos "amigos"
+- Foto de perfil (ok)
+- 20 fotos "amigos" (ok)
 - 12 fotos "comunidade"
 - 15 icones de menu
 - 1 imagem pessoas login
-- bola rosa
-- riscadinho cinza
-- riscadinho amarelo
-- logo orkut
-- bola rosquinha rosa
-- icone menu
-- icone pesquisa
+- bola rosa (ok)
+- riscadinho cinza (ok)
+- riscadinho amarelo (ok)
+- logo orkut (ok)
+- bola rosquinha rosa (ok)
+- icone menu (ok)
+- icone pesquisa (ok)
 
 Fonte:
-Inter
+Inter (ok)
