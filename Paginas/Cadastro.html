@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="../CSS/cadastro.css">
+    <link rel="stylesheet" href="../CSS/responsividade-cadastro.css">
+    <link rel="shortcut icon" href="../Imagens/bola rosquinha rosa.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="container-esquerda">
+            <div class="imagens-esquerda">
+                <div id="anel-rosa" class="anel-rosa">
+                    <img src="../Imagens/bola rosquinha rosa.png" alt="">
+                </div>
+                <div id="circulo-cinza">
+                    <img src="../Imagens/bola riscadinha cinza.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <main>
+            <div class="div-form">
+
+                <div class="form">
+
+                    <form action="">
+                        <div class="form-titulo">
+                            <h1>Cadastro</h1>
+                        </div>
+
+
+
+                        <form action="POST" name="cadastro">
+
+
+
+                            <div class="container-campo container-2campos">
+                                <input type="text" placeholder="Nome *" name="nome" class="campo">
+
+                                <input type="text" placeholder="Sobrenome *" name="sobrenome" class="campo">
+                            </div>
+
+
+
+
+                            <input type="email" placeholder="Endereço de e-mail *" name="email" class="campo">
+
+
+                            <div class="container-campo container-2campos">
+                                <input type="tel" placeholder="DDD + Numero de Celular *" name="telefone" class="campo">
+
+                                <select name="sexo" class="campo " name="sexo">
+                                    <option value="" selected>Sexo</option>
+                                    <option value="feminino">Feminino</option>
+                                    <option value="masculino">Masculino</option>
+                                </select>
+
+                            </div>
+
+
+                            <div id="texto-nascimento" class="texto-pergunta">
+                                <p>Sabemos que é feio perguntar, mas, quando você nasceu? <b class="text-vermelho">*</b>
+                                </p>
+                            </div>
+
+
+                            <div class="container-nascimetno">
+                                <input type="text" placeholder="Dia do nascimento" class="campo nascimento" id="dia">
+
+                                <input type="text" placeholder="Mês do nascimento" class="campo nascimento" id="mes">
+
+                                <input type="text" placeholder="Ano do nascimento" class="campo nascimento" id="ano">
+                            
+                            </div>
+
+                            <input type="text" value="" id="data_nascimento" name="data_nascimento" hidden>
+
+                            <script>
+
+                                function concatenaData(){
+                                    var data = document.querySelector("#dia").value + '/' + document.querySelector("#mes").value + '/' + document.querySelector("#ano").value;
+
+                                    var novaData = document.querySelector("#data_nascimento");
+
+                                    novaData.value = data;
+                                }
+                               
+
+                            </script>
+
+                            <input type="password" placeholder="Crie uma senha bem segura" class="campo" name="senha">
+
+
+                            <div class="texto-pergunta">
+
+                                <p>
+                                    <input type="checkbox" name="termos" class="checkbox" onclick="concatenaData()">
+                                    Aceito os
+
+                                    <b class="text-amarelo"><a href="">Termos de Uso</a></b>
+                                    e as
+                                    <b class="text-amarelo"><a href="">Políticas de Privacidade</a> </b>
+                                    <b class="text-vermelho">* </b>
+                                </p>
+                            </div>
+
+
+                            <button type="submit" class="btn-cadastrar campo" id="btn-cadastrar"><a
+                                    href="">Cadastrar</a></button>
+
+
+                            <div id="ja-possui-conta">
+                                <p>Já possúi conta? <b><a class="text-amarelo" href="">Login</a></b></p>
+                            </div>
+
+                            <div id="infos-obrigatorias">
+                                <p><b class="text-verde" id="msg"></b></p>
+                            </div>
+
+                            <div id="infos-obrigatorias">
+                                <p><b>* Informações obrigatórias</b></p>
+                            </div>
+
+                        </form>
+
+                </div>
+                </form>
+
+                <script> //Com JavaScript
+                    let form = document.querySelector("form");
+                    form.addEventListener('submit', (e) => {
+                        e.preventDefault();
+                        let data = new FormData(form);
+                        fetch('https://script.google.com/macros/s/AKfycbwltpK14k8vuIxigG4xjy367QE6KDcIytXb8TUga1gNdZl5_RMD8RharO1e7AxUdxGw/exec', {
+                            method: "POST",
+                            body: data
+                        })
+                            .then(res => res.text())
+                            .then(data => { 
+                                document.querySelector("#msg").innerHTML = "Cadastrado com sucesso."
+                                document.querySelector("#btn-cadastrar").value = "Enviado";
+                            });
+                    });
+                </script>
+        </div>
+
+            </div>
+        </main>
+
+        <div class="container-direito">
+            <div class="imagens-direita">
+                <div class="anel-rosa" id="anel-rosa-direita">
+                    <img src="../Imagens/bola rosquinha rosa.png" alt="">
+                </div>
+                <div id="circulo-amarelo">
+                    <img src="../Imagens/bola riscadinha dourada.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

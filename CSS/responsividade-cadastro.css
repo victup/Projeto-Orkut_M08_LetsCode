@@ -1,0 +1,242 @@
+@media only screen and (min-width: 500px){
+
+    .container-esquerda{
+        position: absolute;
+        left: -120px;
+    }
+    .imagens-esquerda img{
+        width: 200px;
+    }
+    .imagens-esquerda #circulo-cinza img {
+        width: 70px;
+        position: absolute;
+        bottom: -40px;
+    
+    }
+
+
+    .container-direito{
+        right: -120px;
+        top: 0;
+    }
+    .imagens-direita img{
+       width: 200px;
+        z-index: 0;
+       
+    }
+    .imagens-direita #circulo-amarelo img {
+        width: 80px;
+        position: absolute;
+        right: 70px;
+        top: -10px;
+        z-index: 0;
+    
+    }
+    .btn-cadastrar{
+       z-index: 1;
+    }
+
+    .form-titulo{
+        z-index: 1;
+    }
+
+    .campo{
+        z-index: 1;
+        margin: 5px;
+    }
+
+    .container-2campos input{
+        width: 100%;
+    }
+    .container-2campos select{
+        width: 48.80%;
+        margin: 0 px;
+    }
+
+    .nascimento{
+        width: 30%;
+    }
+
+
+    
+}
+
+@media only screen and (min-width: 900px){
+
+    .container-esquerda{
+        position: absolute;
+        left: -150px;
+    }
+    .imagens-esquerda img{
+        width: 250px;
+    }
+    .imagens-esquerda #circulo-cinza img {
+        width: 100px;
+        position: absolute;
+        bottom: -40px;
+    
+    }
+
+    .container-direito{
+        right: -140px;
+        top: 120px;
+    }
+    .imagens-direita img{
+       width: 250px;
+        z-index: 0;
+       
+    }
+    .imagens-direita #circulo-amarelo img {
+        width: 100px;
+        position: absolute;
+        right: 80px;
+        top: -15px;
+        z-index: 0;
+    
+    }
+
+      .nascimento{
+        width: 31.5%;
+    }
+
+
+
+
+    
+}
+
+@media only screen and (min-width: 1000px){
+
+    .container-esquerda{
+        position: absolute;
+        left: -170px;
+    }
+    .imagens-esquerda img{
+        width: 300px;
+    }
+    .imagens-esquerda #circulo-cinza img {
+        width: 130px;
+        position: absolute;
+        bottom: -40px;
+    
+    }
+
+    
+    .container-direito{
+        right: -140px;
+        top: 140px;
+    }
+    .imagens-direita img{
+       width: 300px;
+        z-index: 0;
+       
+    }
+    .imagens-direita #circulo-amarelo img {
+        width: 140px;
+        position: absolute;
+        right: 80px;
+        top: -25px;
+        z-index: 0;
+    
+    }
+
+    .container-2campos input{
+        width: 48.4%;
+        margin: 0 px;
+    }
+    .container-2campos select{
+        width: 48.4%;
+        margin: 0px;
+    }
+
+    .nascimento{
+        width: 31.8%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px){
+
+    .container-esquerda{
+        position: absolute;
+        left: -170px;
+    }
+    .imagens-esquerda img{
+        width: 350px;
+    }
+    .imagens-esquerda #circulo-cinza img {
+        width: 150px;
+        position: absolute;
+        bottom: -40px;
+    
+    }
+
+    .container-direito{
+        right: -140px;
+        top: 140px;
+    }
+    .imagens-direita img{
+       width: 350px;
+        z-index: 0;
+       
+    }
+    .imagens-direita #circulo-amarelo img {
+        width: 150px;
+        position: absolute;
+        right: 80px;
+        top: -25px;
+        z-index: 0;
+    
+    }
+
+    .container-2campos input{
+        width: 48.6%;
+        margin: 0 px;
+    }
+    .container-2campos select{
+        width: 48.80%;
+        margin: 0 px;
+    }
+
+    
+    
+}
+
+
+@media only screen and (min-width: 1300px){
+
+
+    .container-esquerda{
+        position: absolute;
+        left: -170px;
+    }
+    .imagens-esquerda img{
+        width: 400px;
+    }    
+    .imagens-esquerda #circulo-cinza img {
+        width: 150px;
+        position: absolute;
+        bottom: -40px;
+    
+    }
+
+    .container-direito{
+        right: -170px;
+        top: auto;
+    }
+    .imagens-direita img{
+       width: 400px;
+        z-index: 0;
+       
+    }
+    .imagens-direita #circulo-amarelo img {
+        width: 170px;
+        position: absolute;
+        right: 80px;
+        top: -25px;
+        z-index: 0;
+    
+    }
+    
+}

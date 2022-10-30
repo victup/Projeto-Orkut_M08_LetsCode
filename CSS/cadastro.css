@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../Fontes/Inter/Inter-Medium.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal ;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+  
+}
+.container-esquerda{
+    position: absolute;
+    left: -180px;
+}
+
+.imagens-esquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.imagens-esquerda img{
+    width: 400px;
+}
+
+
+.imagens-esquerda #circulo-cinza img {
+    width: 100px;
+    position: absolute;
+    bottom: -40px;
+
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px;
+    align-items: center;
+    flex-direction: column;
+    width: 65vw;
+    align-items: center;
+    height: 85vh;
+}
+
+
+.form form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.form h1{
+    font-family: 'Inter';
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40pt;
+    letter-spacing: 1rem;
+    color: #3F3F3F;
+}
+
+.campo{
+    border: 1px solid #A6A6A6;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 0px 5px;
+    height: 50px; 
+    
+}
+.container-2campos{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.container-2campos input{
+    width: 48.80%;
+    margin: 0 px;
+}
+.container-2campos select{
+    width: 48.80%;
+    margin: 0 px;
+}
+
+.container-nascimetno{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.container-campo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+.numero-genero{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.full-width{
+    width: 100%;
+}
+
+
+.texto-pergunta p {
+    color: #3F3F3F;    
+
+}
+
+.text-vermelho{
+    color: red;
+
+}
+
+.text-vermelho a{
+    color: red;
+
+}
+
+.text-verde{
+    color: green;
+
+}
+
+.text-amarelo{
+    color: #CEA06B;
+}
+
+.text-amarelo a{
+    color: #CEA06B;
+}
+
+.checkbox{
+    padding: 20px;
+}
+
+.btn-cadastrar{
+    background-color: #63a073; 
+    border: none;
+    width: 100%;
+}
+
+.btn-cadastrar:hover{
+    background-color: #449C5C; 
+    cursor: pointer;
+
+}
+
+.btn-cadastrar a{
+    color: #F2F2F2;
+    
+}
+
+.container-direito{
+    position: fixed;
+    right: -12rem;
+}
+
+
+.imagens-direita{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.imagens-direita img{
+    width: 25rem;
+    
+}
+
+
+.imagens-direita #circulo-amarelo img {
+    width: 11rem;
+    position: absolute;
+    right: 8rem;
+    top: -2rem;
+ 
+
+}
+
+.texto-pergunta{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+#ja-possui-conta{
+    text-align: center;
+}
+
+#infos-obrigatorias p{
+    margin-left: 20px;
+}
