@@ -1,3 +1,77 @@
+@media only screen and (min-width: 300px){
+
+
+    .form h1{
+        font-size: 20pt;
+        letter-spacing: .5rem;
+    }
+
+    .container-esquerda{
+        position: absolute;
+        left: -120px;
+    }
+    .imagens-esquerda img{
+        width: 200px;
+    }
+    .imagens-esquerda #circulo-cinza img {
+        width: 70px;
+        position: absolute;
+        bottom: -40px;
+    
+    }
+
+
+    .container-direito{
+        right: -120px;
+        top: 0px;
+        position: fixed;
+    }
+    .imagens-direita{
+        width: 100%;
+    }
+
+    .imagens-direita img{
+       width: 200px;
+        z-index: 0;
+       
+    }
+    .imagens-direita #circulo-amarelo img {
+        width: 80px;
+        position: absolute;
+        right: 70px;
+        top: -10px;
+        z-index: 0;
+    
+    }
+    .btn-cadastrar{
+       z-index: 1;
+    }
+
+    .form-titulo{
+        z-index: 1;
+    }
+
+    .campo{
+        z-index: 1;
+        margin: 5px;
+    }
+
+    .container-2campos input{
+        width: 100%;
+    }
+    .container-2campos select{
+        width: 48.80%;
+        margin: 0 px;
+    }
+
+    .nascimento{
+        width: 30%;
+    }
+
+
+    
+}
+
 @media only screen and (min-width: 500px){
 
     .container-esquerda{
@@ -222,21 +296,23 @@
     }
 
     .container-direito{
-        right: -170px;
-        top: auto;
-    }
+        display: fixed;
+        height: 100%;
+    
+    } 
     .imagens-direita img{
-       width: 400px;
-        z-index: 0;
-       
+        width: 25rem;
+        
     }
+
     .imagens-direita #circulo-amarelo img {
-        width: 170px;
+        width: 11rem;
         position: absolute;
-        right: 80px;
-        top: -25px;
-        z-index: 0;
+        right: 8rem;
+        top: -2rem;
+     
     
     }
+    
     
 }
