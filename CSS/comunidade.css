@@ -111,19 +111,28 @@ body {
 
 .meio {
     width: 55%;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: white;
-    padding: 2% 4%;
     font-family: 'inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    /* background-color: #EC3496; */
+}
+
+.nome-descricao{
+    margin-top: -3px;
+    padding: 7% 4%;
+    background-color: white;
     border-radius: 30px;
 }
 
-.meio hr {
-    margin: 20px auto;
+.divisor{
+    display: flex;
+    justify-content: right;
+}
+
+.divisor hr {
+    margin: 2% 0;
     border: .5px solid #cea06b95;
     background-color: #cea06b95;
-    width: 100%;
+    width: 70%;
 }
 
 .caixinha {
@@ -142,24 +151,6 @@ body {
 .caixinha p {
     width: 65%;
 }
-
-/* .nome-itens {
-    width: 20%;
-    font-size: 1.2rem;
-    text-align: right;
-    background-color: #CEA06B;
-}
-
-.descricao-itens {
-    width: 70%;
-    background-color: antiquewhite;
-}
-
-.descricao-itens hr {
-    margin: 10px auto;
-    border: 1px solid #CEA06B;
-    background-color: #CEA06B;
-} */
 
 
 
@@ -197,9 +188,32 @@ body {
 }
 
 .membros img {
+
     border-radius: 50%;
     vertical-align: middle;
     width: 12%;
+}
+
+.membros li{
+    position: relative;
+}
+
+.membros li .status {
+    position: absolute;
+    left: -5px;
+    bottom: -8px;
+}
+
+.ausente {
+    color: rgb(251, 117, 0);
+}
+
+.ativo {
+    color: green;
+}
+
+.ocupado {
+    color: red;
 }
 
 .membros p {
@@ -232,3 +246,4 @@ body {
     padding-left: 8px;
     vertical-align: middle;
 }
+
