@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1200px){
+    .nome-descricao h1 {
+        font-size: 1.5rem;
+    }
+    .nome-descricao h2 {
+        font-size: 0.9rem;
+    }
+
+    .nome-descricao p {
+        font-size: 0.9rem;
+    }
+
+    .membros li a {
+        font-weight: bolder;
+        font-size: 12.3px;
+    }
+
+    .comunidades li a {
+        font-weight: bolder;
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .nome-descricao h1 {
+        font-size: 1.5rem;
+    }
+    .nome-descricao h2 {
+        font-size: 0.7rem;
+    }
+
+    .nome-descricao p {
+        font-size: 0.7rem;
+    }
+
+    .links li {
+        font-size: 0.8rem;
+    }
+
+    .caixinha h3 {
+        font-size: 1rem;
+    }
+
+    .membros li a {
+        font-weight: bolder;
+        font-size: 9px;
+    }
+
+    .comunidades li a {
+        font-weight: bolder;
+        font-size: 8.5px;
+    }
+
+    footer {
+        font-size: 9px;
+    }
+
+}
+
+@media only screen and (max-width: 700px){
+
+}
