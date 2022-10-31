@@ -1,0 +1,26 @@
+/* Rodapé */
+
+footer {
+    background-color: #EC3496;
+    padding: 1.5% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    color:#F2F2F2;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer li {
+    margin-left: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f2f2f2a9;
+}
