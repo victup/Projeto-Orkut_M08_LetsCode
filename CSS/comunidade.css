@@ -5,15 +5,16 @@
 
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
 
 @font-face {
     font-family: 'Inter';
     src: url("../Fontes/Inter/Inter-Medium.ttf") format('truetype');
     font-weight: normal;
-    font-style: normal ;
+    font-style: normal;
 }
 
 body {
@@ -23,4 +24,211 @@ body {
     font-size: 100%;
     line-height: 1.5;
     overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    /* background-color: aqua; */
+    background-color: #F2F2F2;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px 7px;
+    justify-content: space-around;
+}
+
+
+
+/* Parte da Esquerda - Perfil da Comunidade*/
+
+.esquerda {
+    width: 20%;
+    background-color: white;
+    padding: 1.5%;
+    border-radius: 30px;
+}
+
+.esquerda figure {
+    text-align: center;
+}
+
+.esquerda figure img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.nome-descricao {
+    font-family: 'Inter';
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.nome-descricao h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: 3%;
+}
+
+.nome-descricao h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 5%;
+}
+
+.nome-descricao p {
+    color: #A6A6A6;
+    font-weight: 300;
+}
+
+.esquerda hr {
+    margin-bottom: 35px;
+    border: 1px solid #CEA06B;
+    background-color: #CEA06B;
+}
+
+.links li {
+    margin: 5% 0;
+    font-family: 'inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.links li a {
+    text-decoration: none;
+    color: #A6A6A6;
+}
+
+.links img {
+    width: 9%;
+    vertical-align: middle;
+}
+
+.links li p {
+    display: inline;
+    padding-left: 10px;
+}
+
+
+/* Parte do Meio - Conteúdo */
+
+.meio {
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 2% 4%;
+    font-family: 'inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+}
+
+.meio hr {
+    margin: 20px auto;
+    border: .5px solid #cea06b95;
+    background-color: #cea06b95;
+    width: 100%;
+}
+
+.caixinha {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.caixinha h3 {
+    width: 20%;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.caixinha p {
+    width: 65%;
+}
+
+/* .nome-itens {
+    width: 20%;
+    font-size: 1.2rem;
+    text-align: right;
+    background-color: #CEA06B;
+}
+
+.descricao-itens {
+    width: 70%;
+    background-color: antiquewhite;
+}
+
+.descricao-itens hr {
+    margin: 10px auto;
+    border: 1px solid #CEA06B;
+    background-color: #CEA06B;
+} */
+
+
+
+/* Parte da Direita - Outros Links + Membros */
+
+.direita {
+    width: 20%;
+    border-radius: 30px;
+    background-color: white;
+    padding: 1.5%;
+    font-family: 'inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.direita h2 {
+    text-align: center;
+}
+
+.direita hr {
+    margin: 15px auto;
+    border: 1px solid #CEA06B;
+    background-color: #CEA06B;
+}
+
+.membros {
+    margin-bottom: 12%;
+}
+
+.membros li {
+    margin: 2.5% auto;
+}
+
+.membros li a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.membros img {
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 12%;
+}
+
+.membros p {
+    display: inline;
+    padding-left: 8px;
+    vertical-align: middle;
+}
+
+.comunidades {
+    margin-bottom: 5%;
+}
+
+.comunidades li {
+    margin: 2.5% auto;
+}
+
+.comunidades li a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.comunidades img {
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 12%;
+}
+
+.comunidades p {
+    display: inline;
+    padding-left: 8px;
+    vertical-align: middle;
 }
