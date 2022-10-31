@@ -1,0 +1,818 @@
+
+
+@media only screen and (min-width: 1300px) {
+
+    
+    header {
+        position: absolute;
+        left: 640px;
+        top: 140px;
+        width: 50%;
+        text-align: center;
+    }
+
+    header img {
+        vertical-align: middle;
+        width: 200px;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .direito{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+    }
+
+    .img1 {
+        top: 30px;
+        right: -80px;
+        width: 13%;
+    }
+
+    .img2{
+        top: 150px;
+        right: -0px;
+        width: 6%;
+    }
+
+    .frases {
+        margin: 6%;
+    }
+
+    .frases h2 {
+        font-size: 40px;
+    }
+
+    .frases p{
+        font-size: 14px;
+    }
+
+    .img3 {
+        width: 43%;
+        left: -220px;
+    }
+
+    .img4 {
+        bottom: 15px;
+        left: 180px;
+        width: 13%;
+    }
+
+    .img5{
+        width: 25%;
+        left: 80px;
+        bottom: 25px;
+    }
+
+    footer {
+        text-align: right;
+        padding: 2% 5%;
+        font-size: 13px;
+        padding-right: 12%;
+    }
+
+}
+
+@media only screen and (max-width: 1200px){
+
+    header {
+        position: absolute;
+        left: 600px;
+        top: 140px;
+        width: 50%;
+        text-align: center;
+    }
+
+    header img {
+        vertical-align: middle;
+        width: 200px;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .direito{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+    }
+
+    .img1 {
+        top: 30px;
+        right: -80px;
+        width: 13%;
+    }
+
+    .img2{
+        top: 150px;
+        right: -0px;
+        width: 6%;
+    }
+
+    .frases {
+        margin: 6%;
+    }
+
+    .frases h2 {
+        font-size: 40px;
+    }
+
+    .frases p{
+        font-size: 14px;
+    }
+
+    .img3 {
+        width: 43%;
+        left: -220px;
+    }
+
+    .img4 {
+        bottom: 15px;
+        left: 180px;
+        width: 13%;
+    }
+
+    .img5{
+        width: 25%;
+        left: 80px;
+        bottom: 25px;
+    }
+
+    footer {
+        text-align: right;
+        padding: 2% 5%;
+        font-size: 13px;
+        padding-right: 12%;
+    }
+
+}
+
+
+@media only screen and (max-width: 900px){
+    header {
+        position: absolute;
+        left: 445px;
+        top: 140px;
+        width: 50%;
+        text-align: center;
+    }
+
+    header img {
+        vertical-align: middle;
+        width: 200px;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .direito{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+    }
+
+    .img1 {
+        top: 30px;
+        right: -50px;
+        width: 15%;
+    }
+    .img2{
+        top: 130px;
+        right: -0px;
+        width: 7%;
+    }
+
+    .frases {
+        margin: 6%;
+    }
+
+    .frases h2 {
+        font-size: 40px;
+    }
+
+    .frases p{
+        font-size: 14px;
+    }
+
+    .img3 {
+        width: 50%;
+    }
+
+    .img4 {
+        bottom: 10px;
+        left: 100px;
+        width: 15%;
+    }
+
+    .img5{
+        width: 27%;
+        left: 80px;
+        bottom: 15px;
+    }
+
+    footer {
+        text-align: right;
+        padding: 2% 5%;
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+        body{
+            width: 100%;
+        }
+    
+        header {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            top: 50px;
+            padding: 5% 0;
+        }
+    
+        header img {
+            margin: 0 auto;
+            width: 40%;
+        }
+    
+        main {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .direito {
+            order: 1;
+            margin: 0;
+            margin-top: 7%;
+            padding: 0;
+            width: 100%;
+    
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .img1 {
+            position: absolute;
+            top: -60px;
+            width: 120px;
+            right: 0px;
+        }
+        
+        .img2 {
+            width: 50px;
+            position: absolute;
+            top: 25px;
+            right: 10px;
+        }
+    
+        .login {
+            margin: 25% auto;
+            padding: 2% 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .login form input{
+            margin: 13px 0;
+            height: 42px;
+        }
+        .campos-login::placeholder{
+            color: #A6A6A6;
+            font-size: 12px;
+        }
+    
+        .botao-entrar {
+            height: 42px;
+            margin: 13px 0;
+            font-size: 14px;
+        }
+    
+    
+        .esquerdo {
+            margin-top: 35%;
+            margin-bottom: 3%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .frases {
+            font-family: 'Inter';
+            text-align: center;
+            width: 70%;
+            font-size: 12px;
+            margin: 2% 2%;
+        }
+    
+        .frases h2 {
+            font-size: 30px;
+            font-weight: bolder;
+            color: #3F3F3F;
+        }
+    
+        .frases p {
+            color: #A6A6A6;
+            padding: 0  6%;
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+    
+        .img3 {
+            position: absolute;
+            bottom: -200px;
+            left: 190px;
+            width: 270px;
+        }
+        
+        .img4 {
+            width: 170px;
+            position: absolute;
+            bottom: -200px;
+            left: 320px;
+        }
+        
+        .img5 {
+            width: 290px;
+            position: absolute;
+            bottom: -190px;
+            left: 300px;
+        }
+    
+        footer {
+            width: 100%;
+            font-size: 10px;
+            position: initial;
+            color: #F2F2F2;
+            background-color: #EC3496;
+            text-align: center;
+        }
+    
+        footer a {
+            color: #F2F2F2;
+        }
+    
+}
+
+@media only screen and (max-width: 700px){
+    body{
+        width: 100%;
+    }
+
+    header {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        top: 50px;
+        padding: 5% 0;
+    }
+
+    header img {
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .direito {
+        order: 1;
+        margin: 0;
+        margin-top: 7%;
+        padding: 0;
+        width: 100%;
+
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img1 {
+        position: absolute;
+        top: -60px;
+        width: 120px;
+        right: 0px;
+    }
+    
+    .img2 {
+        width: 50px;
+        position: absolute;
+        top: 25px;
+        right: 10px;
+    }
+
+    .login {
+        margin: 25% auto;
+        padding: 2% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .login form input{
+        margin: 13px 0;
+        height: 42px;
+    }
+    .campos-login::placeholder{
+        color: #A6A6A6;
+        font-size: 12px;
+    }
+
+    .botao-entrar {
+        height: 42px;
+        margin: 13px 0;
+        font-size: 14px;
+    }
+
+
+    .esquerdo {
+        margin-top: 35%;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frases {
+        font-family: 'Inter';
+        text-align: center;
+        width: 70%;
+        font-size: 12px;
+        margin: 2% 2%;
+    }
+
+    .frases h2 {
+        font-size: 30px;
+        font-weight: bolder;
+        color: #3F3F3F;
+    }
+
+    .frases p {
+        color: #A6A6A6;
+        padding: 0  6%;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .img3 {
+        position: absolute;
+        bottom: -150px;
+        left: 140px;
+        width: 250px;
+    }
+    
+    .img4 {
+        width: 170px;
+        position: absolute;
+        bottom: -140px;
+        left: 270px;
+    }
+    
+    .img5 {
+        width: 290px;
+        position: absolute;
+        bottom: -130px;
+        left: 250px;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 10px;
+        position: initial;
+        color: #F2F2F2;
+        background-color: #EC3496;
+        text-align: center;
+    }
+
+    footer a {
+        color: #F2F2F2;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .frases h2 {
+        font-size: 30px;
+        font-weight: bolder;
+        color: #3F3F3F;
+    }
+
+    .frases p {
+        color: #A6A6A6;
+        padding: 0  6%;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .img3 {
+        position: absolute;
+        bottom: -40px;
+        left: 120px;
+        width: 230px;
+    }
+    
+    .img4 {
+        width: 150px;
+        position: absolute;
+        bottom: -60px;
+        left: 250px;
+    }
+    
+    .img5 {
+        width: 250px;
+        position: absolute;
+        bottom: -40px;
+        left: 220px;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 10px;
+        position: initial;
+        color: #F2F2F2;
+        background-color: #EC3496;
+        text-align: center;
+    }
+
+    footer a {
+        color: #F2F2F2;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    body{
+        width: 100%;
+    }
+
+    header {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        top: 50px;
+        padding: 5% 0;
+    }
+
+    header img {
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .direito {
+        order: 1;
+        margin: 0;
+        margin-top: 7%;
+        padding: 0;
+        width: 100%;
+
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img1 {
+        position: absolute;
+        top: -60px;
+        width: 120px;
+        right: 0px;
+    }
+    
+    .img2 {
+        width: 50px;
+        position: absolute;
+        top: 25px;
+        right: 10px;
+    }
+
+    .login {
+        margin: 25% auto;
+        padding: 2% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .login form input{
+        margin: 13px 0;
+        height: 42px;
+    }
+    .campos-login::placeholder{
+        color: #A6A6A6;
+        font-size: 12px;
+    }
+
+    .botao-entrar {
+        height: 42px;
+        margin: 13px 0;
+        font-size: 14px;
+    }
+
+
+    .esquerdo {
+        margin-top: 35%;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frases {
+        font-family: 'Inter';
+        text-align: center;
+        width: 70%;
+        font-size: 12px;
+        margin: 2% 2%;
+    }
+
+    .frases h2 {
+        font-size: 26px;
+        font-weight: bolder;
+        color: #3F3F3F;
+    }
+
+    .frases p {
+        color: #A6A6A6;
+        padding: 0  6%;
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .img3 {
+        position: absolute;
+        bottom: 0px;
+        left: 100px;
+        width: 180px;
+    }
+    
+    .img4 {
+        width: 100px;
+        position: absolute;
+        bottom: 20px;
+        left: 210px;
+    }
+    
+    .img5 {
+        width: 200px;
+        position: absolute;
+        bottom: 20px;
+        left: 170px;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 10px;
+        position: initial;
+        color: #F2F2F2;
+        background-color: #EC3496;
+        text-align: center;
+    }
+
+    footer a {
+        color: #F2F2F2;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .img3 {
+        position: absolute;
+        bottom: 100px;
+        left: 60px;
+        width: 150px;
+    }
+    
+    .img4 {
+        width: 70px;
+        position: absolute;
+        bottom: 100px;
+        left: 170px;
+    }
+    
+    .img5 {
+        width: 170px;
+        position: absolute;
+        bottom: 110px;
+        left: 150px;
+    }
+}
+
+@media only screen and (max-width: 351px) {
+
+    .img3 {
+        position: absolute;
+        bottom: 130px;
+        left: 60px;
+        width: 150px;
+    }
+    
+    .img4 {
+        width: 70px;
+        position: absolute;
+        bottom: 140px;
+        left: 160px;
+    }
+    
+    .img5 {
+        width: 170px;
+        position: absolute;
+        bottom: 140px;
+        left: 120px;
+    }
+
+    footer {
+        padding: 3% 5%;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width:300px) {
+
+    .img1 {
+        position: absolute;
+        top: -70px;
+        width: 120px;
+        right: 0px;
+    }
+    
+    .img2 {
+        width: 50px;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+    }
+
+    .direito{
+        margin-top:13%;
+    }
+
+    .img3 {
+        position: absolute;
+        bottom: 180px;
+        left: 60px;
+        width: 100px;
+    }
+    
+    .img4 {
+        width: 70px;
+        position: absolute;
+        bottom: 180px;
+        left: 120px;
+    }
+    
+    .img5 {
+        width: 130px;
+        position: absolute;
+        bottom: 180px;
+        left: 100px;
+    }
+
+    footer {
+        padding: 3% 7%;
+        text-align: center;
+    }
+}

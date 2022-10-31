@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="../CSS/responsividade-login.css">
     <link rel="shortcut icon" href="../Imagens/bola rosquinha rosa.png" type="image/x-icon" />
     <title>Orkut • Login</title>
 </head>
@@ -18,19 +19,36 @@
         <div class="direito">
             <div class="login">
                 <form method="post" name="login">
-                    <input type="email" name="email" placeholder="informe seu email de login"
-                        style="padding-left: 15px;">
+                    <input type="email" name="email" placeholder="informe seu email de login" required class="campos-login">
                     <br>
-                    <input type="password" name="password" placeholder="informe sua senha" style="padding-left: 15px;">
+                    <input type="password" name="password" placeholder="informe sua senha" required class="campos-login">
                     <br>
-                    <input type="submit" name="entrar" value="entrar"
-                        style="background-color: #449C5C; color: white; border: none;">
+                    <!-- <input type="submit" name="entrar" value="entrar" class="botao-entrar" id="btn-login"> -->
+                    <button type="submit" name="entrar" class="botao-entrar" id="btn-login"><a href="">Entrar</a></button>
                 </form>
                 <div class="links">
                     <p><strong><a href="#">Esqueceu sua senha?</a></strong></p>
                     <p>Ainda não tem conta?<strong><a href="./Cadastro.html"> Cadastre-se aqui!</a></strong></p>
                 </div>
             </div>
+
+            <script>
+                let form = document.querySelector("form");
+                form.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    let data = new FormData(form);
+                    fetch('https://script.google.com/macros/s/AKfycbw_4ArAgh4w3t20iunW_4ON3X7wNYw_MiLaYU6vLIorTQYaAGxXNNx_Oa0BsLJiDxec/exec', {
+                        method: "POST",
+                        body: data
+                    })
+                        .then(res => res.text())
+                        .then(data => { 
+                            document.querySelector("#msg").innerHTML = "Login efetuado com sucesso"
+                            document.querySelector("#btn-login").value = "Entrando";
+                        });
+                });
+            </script>
+
             <figure>
                 <img src="../Imagens/Bola rosa.png" class="img1">
                 <img src="../Imagens/bola riscadinha dourada.png" class="img2">

@@ -72,11 +72,36 @@ main {
 
 .login form input{
     font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 13px 0;
-    width: 380px;
-    height: 42px;
-    border: 1px solid #A6A6A6;
+    margin: 14px 0;
+    width: 70%;
+    height: 52px;
+    border: none;
     border-radius: 20px;
+    padding-left: 15px;
+}
+
+.campos-login::placeholder{
+    /* padding-left: 15px; */
+    color: #A6A6A6;
+    font-size: 14px;
+}
+
+.botao-entrar {
+    width: 70%;
+    height: 52px;
+    border: none;
+    border-radius: 20px;
+    margin: 14px 0;
+    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: 18px;
+    background-color: #449C5C;  
+    border: none;
+}
+
+.botao-entrar a{
+    text-decoration: none;
+    color: white;
 }
 
 .links p {
