@@ -28,11 +28,10 @@ body {
 
 .container {
     display: flex;
-    /* background-color: aqua; */
     background-color: #F2F2F2;
     flex-direction: row;
     width: 100%;
-    padding: 30px 7px;
+    padding: 0 7px;
     justify-content: space-around;
 }
 
