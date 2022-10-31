@@ -136,6 +136,7 @@
 
 .amigos-comunidades hr{
     border-color: #CEA06B;
+    background-color: #CEA06B;
     width: 70%;
     font-weight: bold;
     align-items: center;
@@ -251,6 +252,7 @@
 
 .bloco-welcome hr{
     border-color: #CEA06B;
+    background-color: #CEA06B;
     width: 90%;
     font-weight: bold;
     align-items: center;
