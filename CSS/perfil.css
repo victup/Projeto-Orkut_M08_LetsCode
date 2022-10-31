@@ -10,7 +10,7 @@
 .container-geral{
     background-color: #F2F2F2;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -23,18 +23,26 @@
 }
 
 .container-esquerdo{
-    background-color: aqua;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    background-color: #F2F2F2;
+
 }
 
 .container-central{
-    background: tomato;
-    width: 100%;
+    background-color: #F2F2F2;
+    width: 55%;
 }   
 
 .container-direito{
-    background-color: blueviolet;
-    width: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+
 }
 
 .busca-orkut input{
@@ -43,4 +51,177 @@
     border-radius: 20px;
     margin: 0px 5px;
     height: 50px; 
+}
+
+.img-perfil{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20%;
+    width: 90%;
+    margin: 2% 8% ;
+    background-color: #F2F2F2;
+    
+}
+
+
+.img-perfil img{
+   width: 100%;
+   display: flex;
+   border-radius: 100%;
+
+  
+}
+
+.info-perfil{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 90%;
+    margin: 0 auto;
+    height: 50%;
+    border-radius: 70px;
+    margin-top: 20%;
+    padding: 10%;
+    margin-left: 7%;
+
+}
+
+.info-perfil h1{
+    font-size: 150%;
+    margin-bottom: 2%;
+}
+
+.info-perfil p{
+    font-size: 120%;
+    margin-bottom: 2%;
+    color: #433D38;
+}
+
+.info-perfil hr{
+    border-color: #CEA06B;
+    width: 70%;
+    font-weight: bold;
+    align-items: center;
+}
+
+.info-perfil a{
+    text-decoration: none;
+    font-size: 130%;
+    color: #433D38;
+}
+
+.amigos-comunidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 50%;
+    border-radius: 70px;
+    margin-top: 20%;
+    padding: 10%;
+    margin-left: 7%;
+    height: auto;
+}
+
+.amigos-comunidades hr{
+    border-color: #CEA06B;
+    width: 70%;
+    font-weight: bold;
+    align-items: center;
+    margin: 5% auto;
+}
+
+
+.amigos-comunidades .amigos .amigo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+    position: relative;
+}
+
+.amigos-comunidades img{
+   width: 30%;
+   border-radius: 100%;
+   padding: 5%;
+
+}
+
+.amigos-comunidades  a{
+    text-decoration: none;
+    color: #7A7473;
+    font-size: 120%;
+ 
+ }
+
+ .ativo{
+    color: green;
+ }
+ .inativo{
+    color: red;
+ }
+ .ocupado{
+    color: yellow;
+ }
+
+ 
+.amigos-comunidades  h1{
+    font-size: 150%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+ .amigos-comunidades .amigos .amigo .status{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 14pt;
+  
+ }
+
+
+ .amigos-comunidades .comunidades .comunidade{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+    position: relative;
+}
+
+
+.feed-perfil{
+    background-color: #fff;
+    border-radius: 5%;
+    width: 100%;
+    min-height: 100%;
+    padding: 5%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.feed-perfil .titulo-feed h1{
+    font-size: 300%;
+}
+
+.bloco-welcome{
+    background-color: aquamarine;
+    width: 100%;
+    border-radius: 3%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.itens-principais{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.item-welcome{
+    
 }

@@ -2,14 +2,29 @@
 .container-header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 70px;
     z-index: 1;
     padding: 10px;
 }
 
 .container-header #logo{
-    width: 160px;
+    width: 10%;
+    margin-left: 20px;
+    margin: 0;
+    
+}
+
+.container-header #logo img{
+    width: 50px;
+}
+
+.busca-orkut{
+    width: 60%;
+}
+
+.busca-orkut input{
+    width: 100%;
 }
 
 .menu ul{
@@ -21,11 +36,18 @@
     padding: 40px 20px;
     border-radius: 20px;
     display: none;
+    width: 250px;
+
 }
 
 .menu ul li{
-    margin: 5px 0px;
+    margin: 20px auto;
 
+}
+
+
+ul li img{
+    width: 20px;
 }
 
 .menu ul li a{
