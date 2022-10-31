@@ -46,6 +46,7 @@
     display: flex;
     justify-content: center;
     vertical-align: middle;
+    position: relative;
 }
 
 .menu ul{
@@ -58,6 +59,12 @@
     padding: 40px 20px;
     border-radius: 20px;
     width: 250px;
+    min-height: 300px;
+    border: .1px solid grey;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+
 }
 
 .menu ul li{
