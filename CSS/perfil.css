@@ -212,7 +212,7 @@
     background-color: #fff;
     border-radius: 5%;
     width: 100%;
-    min-height: 100%;
+    min-height: 50%;
     padding: 5%;
     display: flex;
     flex-direction: column;
@@ -231,7 +231,6 @@
     background-color: #F2F2F2;
     width: 100%;
     border-radius: 30px;
-
     display: flex;
     flex-direction: column;
     padding: 5%;
@@ -239,6 +238,7 @@
 
 .bloco-welcome a{
     color: #7A7473;
+    font-size: 100%;
 }
 
 .bloco-welcome h3{

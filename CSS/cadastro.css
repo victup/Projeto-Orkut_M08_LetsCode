@@ -76,14 +76,12 @@
 
 form .form-titulo{
     width: 100%;
-    background-color: pink;
     padding-top: 50px;
 }
 
 form .form-titulo h1{
     width: 100%;
     height: 100%;
-    background-color: #A6A6A6;
 
 }
 
@@ -182,10 +180,30 @@ form .form-titulo h1{
     padding: 20px;
 }
 
+.button{
+
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
 .btn-cadastrar{
     background-color: #63a073; 
     border: none;
     width: 99%;
+    display: flex;
+    height: 100%;
+    color: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+}
+.btn-cadastrar a{
+    width: 100%;
+    height: 100%;
+    vertical-align: center;
+    margin: auto;
+    
 }
 
 .btn-cadastrar:hover{
@@ -194,10 +212,6 @@ form .form-titulo h1{
 
 }
 
-.btn-cadastrar a{
-    color: #F2F2F2;
-    
-}
 
 .container-direito{
     position: fixed;
@@ -215,7 +229,9 @@ form .form-titulo h1{
 #ja-possui-conta{
     text-align: center;
 }
-
-#infos-obrigatorias p{
+.infos-obrigatorias{
+    width: 100%;
+}
+.infos-obrigatorias p{
     margin-left: 20px;
 }

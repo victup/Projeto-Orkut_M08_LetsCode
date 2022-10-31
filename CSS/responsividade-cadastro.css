@@ -60,14 +60,14 @@
         width: 100%;
     }
     .container-2campos select{
-        width: 48.80%;
-        margin: 0 px;
+        width: 96.99%;
+        margin: 0px;
     }
 
     .nascimento{
-        width: 30%;
+        width: 100%;
     }
-
+ 
 
     
 }
@@ -123,12 +123,12 @@
         width: 100%;
     }
     .container-2campos select{
-        width: 48.80%;
+        width: 97%;
         margin: 0 px;
     }
 
     .nascimento{
-        width: 30%;
+        width: 100%;
     }
 
 

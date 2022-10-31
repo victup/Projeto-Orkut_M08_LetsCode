@@ -1,0 +1,258 @@
+@media only screen and (min-width: 300px){
+
+    .aniversariante img{
+        border-radius: 100%;
+        width: 40px;
+        margin-right: 15px;
+    }
+    
+    .bloco-welcome a{
+        font-size: 50%;
+        margin-right: 20px;
+    }
+
+    .info-perfil h1{
+        font-size: 60%;
+        margin-bottom: 4%;
+    }
+    
+    .info-perfil p{
+        font-size: 60%;
+        margin-bottom: 2%;
+        color: #433D38;
+    }
+
+    .info-perfil a{
+        text-decoration: none;
+        font-size: 60%;
+        color: #7A7473;
+        margin-left: 2%;
+
+    }
+
+    .item-opcao span{
+        font-size: 60%;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .aniversariante img{
+        border-radius: 100%;
+        width: 50px;
+        margin-right: 15px;
+    }
+    
+
+    .amigos-comunidades h1{
+        font-size: 90%;
+    
+    }
+    
+    .amigos-comunidades  a{
+    
+        font-size: 90%;
+    
+     }
+
+     .container-postar{
+        border-radius: 40px;
+     }
+    
+     .amigos-comunidades .amigos .amigo .status{
+        position: absolute;
+        left: -5px;
+        bottom: 0px;
+        font-size: 9pt;
+      
+     }
+
+     .bloco-welcome a{
+        font-size: 90%;
+        margin-right: 20px;
+    }
+
+    .info-perfil h1{
+        font-size: 90%;
+        margin-bottom: 4%;
+    }
+    
+    .info-perfil p{
+        font-size:90%;
+        margin-bottom: 2%;
+        color: #433D38;
+    }
+
+    .info-perfil a{
+        text-decoration: none;
+        font-size: 90%;
+        color: #7A7473;
+        margin-left: 2%;
+    }
+
+    .item-opcao span{
+        font-size: 90%;
+    }
+
+    
+    .feed-perfil .titulo-feed h1{
+        font-size: 150%;
+        margin-bottom: 2%;
+    }
+
+    .bloco-welcome h3{
+        font-size: 80%;
+    }
+    
+    .bloco-welcome h2{
+        font-size: 100%;
+    }    
+    
+}
+
+@media only screen and (min-width: 900px){
+
+
+    .amigos-comunidades h1{
+        font-size: 120%;
+    
+    }
+    
+    .amigos-comunidades  a{
+    
+        font-size: 100%;
+    
+     }
+    
+     .aniversariante img{
+        border-radius: 100%;
+        width: 100px;
+        margin-right: 15px;
+    }
+    
+    .amigos-comunidades .amigos .amigo .status{
+        position: absolute;
+        left: -5px;
+        bottom: -6px;
+        font-size: 11pt;
+      
+     }
+
+     .bloco-welcome a{
+        font-size: 100%;
+        margin-right: 20px;
+    }
+
+    .info-perfil h1{
+        font-size: 120%;
+        margin-bottom: 4%;
+    }
+    
+    .info-perfil p{
+        font-size: 100%;
+        margin-bottom: 2%;
+        color: #433D38;
+    }
+
+    .info-perfil a{
+        text-decoration: none;
+        font-size: 100%;
+        color: #7A7473;
+        margin-left: 2%;
+    }
+
+    .item-opcao span{
+        font-size: 120%;
+    }
+
+    .feed-perfil .titulo-feed h1{
+        font-size: 200%;
+        margin-bottom: 2%;
+    }
+
+    .bloco-welcome h3{
+        font-size: 90%;
+    }
+    
+    .bloco-welcome h2{
+        font-size: 120%;
+    }    
+
+    
+}
+
+@media only screen and (min-width: 1000px){
+
+
+
+.amigos-comunidades h1{
+    font-size: 150%;
+
+}
+
+.amigos-comunidades  a{
+
+    font-size: 120%;
+
+ }
+
+ .aniversariante img{
+    border-radius: 100%;
+    width: 140px;
+    margin-right: 15px;
+}
+.container-postar{
+    border-radius: 60px;
+ }
+
+ .amigos-comunidades .amigos .amigo .status{
+    position: absolute;
+    left: -5px;
+    bottom: -8px;
+    font-size: 14pt;
+  
+ }
+
+    .item-welcome{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-perfil h1{
+        font-size: 150%;
+        margin-bottom: 4%;
+    }
+    
+    .info-perfil p{
+        font-size: 120%;
+        margin-bottom: 2%;
+        color: #433D38;
+    }
+
+    .info-perfil a{
+        text-decoration: none;
+        font-size: 130%;
+        color: #7A7473;
+        margin-left: 2%;
+    }
+
+
+    .item-opcao span{
+        font-size: 150%;
+    }
+
+    .feed-perfil .titulo-feed h1{
+        font-size: 250%;
+        margin-bottom: 2%;
+    }
+
+    .bloco-welcome h3{
+        font-size: 100%;
+    }
+    
+    .bloco-welcome h2{
+        font-size: 150%;
+    }    
+}
+
+
+
